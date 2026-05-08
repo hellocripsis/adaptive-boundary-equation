@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata from this file."
+title: "The Adaptive Boundary Equation: A Minimal Active-Boundary Model for Self-Organizing Information-Entropy Dynamics"
+version: "v10.9"
+date-released: "2026-05-08"
+authors:
+  - family-names: "Poincot"
+    given-names: "Andrew"
