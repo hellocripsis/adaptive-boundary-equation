@@ -1,0 +1,12 @@
+{
+  "title": "The Adaptive Boundary Equation: A Minimal Active-Boundary Model for Self-Organizing Information-Entropy Dynamics",
+  "upload_type": "software",
+  "description": "Academic paper, figures, and reproducibility scripts for the Adaptive Boundary Equation paper.",
+  "creators": [
+    {
+      "name": "Poincot, Andrew",
+      "affiliation": "Cripsis Logic"
+    }
+  ],
+  "license": "MIT"
+}
