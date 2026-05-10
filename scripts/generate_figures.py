@@ -139,7 +139,7 @@ for eta in eta_vals:
 fig, axes = plt.subplots(1,2, figsize=(13.0,6.2))
 axes[0].scatter(Rvals, measured_abs, s=24, alpha=0.75, label='measured equilibrium $|I|$')
 rr=np.linspace(min(Rvals), max(Rvals), 300)
-theory=np.sqrt(np.maximum(rr-1, 0))
+theory=np.where(rr>1, np.sqrt(rr-1), 0)
 axes[0].plot(rr, theory, label=r'theory: $|I|=\sqrt{R-1}$')
 axes[0].axvline(1, ls='--', lw=1)
 axes[0].set_title('Threshold crossing in synthetic operational data')
